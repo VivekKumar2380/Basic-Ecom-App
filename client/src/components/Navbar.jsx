@@ -64,7 +64,7 @@ const Navbar = () => {
               </NavLink>
             ))}
           </HStack>
-        </HStack>
+        </HStack> 
         <Flex alignItems="center">
           <NavLink>
             <Icon
