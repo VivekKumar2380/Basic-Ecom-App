@@ -1,7 +1,7 @@
-import {ChakraProvider} from '@chakra-ui/react';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Navbar from './components/Navbar';
-import ProductsPage from './pages/ProductsPage';
+import { ChakraProvider } from "@chakra-ui/react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import ProductsPage from "./pages/ProductsPage";
 function App() {
   return (
     <ChakraProvider>
@@ -9,7 +9,7 @@ function App() {
         <Navbar />
         <main>
           <Routes>
-            <Route path="/products" element={<ProductsPage/>}/>
+            <Route path="/products" element={<ProductsPage />} />
           </Routes>
         </main>
       </Router>
